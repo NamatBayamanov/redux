@@ -1,11 +1,7 @@
-
 import CounterControls from "./CounterControls";
 import CounterDisplays from "./CounterDisplay";
 
 function Counter() {
-
-
-
 
 
   return (
