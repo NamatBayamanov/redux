@@ -14,6 +14,10 @@ function CounterControls() {
         +
       </button>
 
+      <button onClick={() => dispatch({ type: "counter/reset" })}>
+        reset
+      </button>
+
       <button onClick={() => dispatch({ type: "counter/decrement" })}>
         -
       </button>

@@ -16,6 +16,10 @@ const counterSlice = createSlice(
         store.number--;
         // store.number += 1; 
       },
+      reset: function (store) {
+        store.number = 0;
+        // store.number += 1; 
+      },
     }
   }
 );
