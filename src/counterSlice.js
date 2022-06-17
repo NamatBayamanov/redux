@@ -8,7 +8,7 @@ const counterSlice = createSlice(
       // name: "",
     },
     reducers: {
-      increament: function (store) {
+      increment: function (store) {
         store.number++;
         // store.number += 1; 
       },
