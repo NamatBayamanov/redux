@@ -1,5 +1,6 @@
 import CounterControls from "./CounterControls";
 import CounterDisplays from "./CounterDisplay";
+import CounterSet from "./CounterSet";
 
 function Counter() {
 
@@ -8,6 +9,7 @@ function Counter() {
     <div className="Counter">
       <CounterDisplays />
       <CounterControls/>
+      <CounterSet/>
     </div>
   );
 }
